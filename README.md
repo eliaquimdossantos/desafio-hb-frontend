@@ -49,7 +49,8 @@ Abaixo estão os principais scripts e etapas para o desenvolvimento e gerenciame
 
 Crie um arquivo .env e adicione a seguinte variável, substituindo a URL se necessário
 
-```NEXT_PUBLIC_API_URL=http://127.0.0.1:4000/api/v1
+```sh
+NEXT_PUBLIC_API_URL=http://127.0.0.1:4000/api/v1
 ```
 
 ### 🏗️ Instalação das Dependências
