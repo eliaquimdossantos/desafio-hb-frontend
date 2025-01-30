@@ -45,6 +45,13 @@ O **Cadastro de Compras** está em andamento e contará com as seguintes funcion
 
 Abaixo estão os principais scripts e etapas para o desenvolvimento e gerenciamento do projeto:
 
+### Configuração de Variáveis de Ambiente
+
+Crie um arquivo .env e adicione a seguinte variável, substituindo a URL se necessário
+
+```NEXT_PUBLIC_API_URL=http://127.0.0.1:4000/api/v1
+```
+
 ### 🏗️ Instalação das Dependências
 Instale as dependências do projeto com o seguinte comando:
 ```sh
