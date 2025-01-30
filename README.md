@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Aqui está um README mais elegante e informativo, destacando o progresso do projeto:
 
-## Getting Started
+---
 
-First, run the development server:
+# Sistema de Gestão de Pedidos
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+![Logo do Projeto](./img/logo.png)
+
+## 📜 Sobre o Projeto
+Este projeto tem como objetivo fornecer uma solução robusta para o gerenciamento de pedidos de vendas e compras. Desenvolvido com **NestJS** e **TypeScript**, com integração com backend NestJS.
+
+### Funcionalidades:
+
+1. **Cadastro de Pedidos de Vendas**  
+   - **Interface para cadastrar uma nova venda**  
+   - **Interface para visualizar todas as vendas**  
+
+2. **Cadastro de Pedidos de Compras** (Não concluída)  
+   - **Interface para cadastrar uma compra**, permitindo a escolha da venda e do(s) produto(s) que estão sendo comprados  
+   - **Interface para visualizar todas as compras**  
+
+---
+
+## 🚀 Funcionalidades Concluídas
+
+### 1️⃣ Cadastro de Pedidos de Vendas
+
+A funcionalidade de **Cadastro de Pedidos de Vendas** foi implementada. Ela inclui:
+
+- **Interface para cadastrar uma nova venda**:  
+  Uma interface intuitiva para registrar novos pedidos de venda.
+
+- **Interface para visualizar todas as vendas**:  
+  Uma tela para exibir todos os pedidos de venda registrados no sistema, com a possibilidade de filtrar, editar ou excluir registros.
+
+---
+
+## 🚧 Funcionalidades em Andamento
+
+### 2️⃣ Cadastro de Compras
+
+O **Cadastro de Compras** está em andamento e contará com as seguintes funcionalidades:
+
+- **Interface para cadastrar uma compra**:  
+  Permite o registro de compras, associando à venda correspondente e aos produtos que estão sendo adquiridos.
+
+- **Interface para visualizar todas as compras**:  
+  Será possível visualizar todas as compras realizadas, com detalhes sobre os produtos adquiridos e suas respectivas vendas.
+
+---
+
+## 🚀 Scripts
+
+Abaixo estão os principais scripts e etapas para o desenvolvimento e gerenciamento do projeto:
+
+### 🏗️ Instalação das Dependências
+Instale as dependências do projeto com o seguinte comando:
+```sh
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🛠️ Desenvolvimento
+Para rodar o servidor em modo desenvolvimento, onde as alterações são aplicadas automaticamente, use:
+```sh
+npm run start:dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🚀 Produção
+Para rodar o servidor em modo produção, execute os seguintes passos:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Compilar o código**:
+    ```sh
+    npm run build
+    ```
 
-## Learn More
+2. **Iniciar o servidor em produção**:
+    ```sh
+    npm run start
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📚 Documentação
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Para mais informações sobre a arquitetura e as tecnologias utilizadas, consulte a documentação:
 
-## Deploy on Vercel
+- [NestJS Documentation](https://docs.nestjs.com/)
+- [Prisma Documentation](https://www.prisma.io/docs/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
