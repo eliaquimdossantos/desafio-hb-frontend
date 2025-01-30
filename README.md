@@ -1,11 +1,3 @@
-Aqui está um README mais elegante e informativo, destacando o progresso do projeto:
-
----
-
-# Sistema de Gestão de Pedidos
-
-![Logo do Projeto](./img/logo.png)
-
 ## 📜 Sobre o Projeto
 Este projeto tem como objetivo fornecer uma solução robusta para o gerenciamento de pedidos de vendas e compras. Desenvolvido com **NestJS** e **TypeScript**, com integração com backend NestJS.
 
