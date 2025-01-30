@@ -48,7 +48,7 @@ const DrawerContent = () => {
       <List>
         {drawerOptions.map((option, index) => (
           <ListItem key={index} disablePadding>
-            <ListItemButton onClick={() => handleLinkClick(option.url)}>
+            <ListItemButton disabled={index == 1 ? true : false} onClick={() => handleLinkClick(option.url)}>
               <ListItemIcon>{option.icon}</ListItemIcon>
               <ListItemText primary={option.name} />
             </ListItemButton>
